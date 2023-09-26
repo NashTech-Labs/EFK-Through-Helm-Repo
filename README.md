@@ -11,8 +11,7 @@ This README provides instructions on deploying the EFK (Elasticsearch, Fluentd, 
    insights into their log and event data.
 
 ``` EFK is commonly used in DevOps and IT operations to monitor and analyze logs from various applications and systems. It helps organizations troubleshoot issues, track system 
-    performance, and detect anomalies by providing a 
-    centralized platform for log management and analysis. ```
+    performance, and detect anomalies by providing a centralized platform for log management and analysis. ```
 
 
 Prerequisites
