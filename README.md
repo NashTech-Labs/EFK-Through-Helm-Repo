@@ -10,8 +10,8 @@ This README provides instructions on deploying the EFK (Elasticsearch, Fluentd, 
 3. Kibana: Kibana is a data visualization and exploration tool. It provides a web-based interface for users to search, analyze, and visualize data stored in Elasticsearch. Users can create dashboards, charts, and graphs to gain 
    insights into their log and event data.
 
-``` EFK is commonly used in DevOps and IT operations to monitor and analyze logs from various applications and systems. It helps organizations troubleshoot issues, track system 
-    performance, and detect anomalies by providing a centralized platform for log management and analysis. ```
+EFK is commonly used in DevOps and IT operations to monitor and analyze logs from various applications and systems. It helps organizations troubleshoot issues, track system 
+performance, and detect anomalies by providing a centralized platform for log management and analysis. 
 
 
 Prerequisites
