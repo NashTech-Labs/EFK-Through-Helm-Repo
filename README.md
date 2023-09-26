@@ -1,6 +1,6 @@
-# EFK
+# EFK Stack Deployment in the Cloud
 
-``` EFK stands for Elasticsearch, Fluentd, and Kibana. It is a popular open-source software stack used for log and event data collection, storage, and visualization. Each component in the EFK stack serves a specific purpose: '''
+This README provides instructions on deploying the EFK (Elasticsearch, Fluentd, Kibana) stack in the k8s cloud. The EFK stack is used for log and event data collection, storage, and visualization.
 
 1. Elasticsearch: This is a distributed search and analytics engine. It's used for storing and searching large volumes of data quickly. In the context of EFK, Elasticsearch is typically used to store log and event data.
 
@@ -10,11 +10,9 @@
 3. Kibana: Kibana is a data visualization and exploration tool. It provides a web-based interface for users to search, analyze, and visualize data stored in Elasticsearch. Users can create dashboards, charts, and graphs to gain 
    insights into their log and event data.
 
-EFK is commonly used in DevOps and IT operations to monitor and analyze logs from various applications and systems. It helps organizations troubleshoot issues, track system performance, and detect anomalies by providing a centralized platform for log management and analysis.
+``` EFK is commonly used in DevOps and IT operations to monitor and analyze logs from various applications and systems. It helps organizations troubleshoot issues, track system performance, and detect anomalies by providing a 
+    centralized platform for log management and analysis. ```
 
-# EFK Stack Deployment in the Cloud
-
-This README provides instructions on deploying the EFK (Elasticsearch, Fluentd, Kibana) stack in the k8s cloud. The EFK stack is used for log and event data collection, storage, and visualization.
 
 ## Prerequisites
 
@@ -32,8 +30,8 @@ Follow these steps to deploy the EFK stack in the cloud:
 2. Ensure that the VMs have the required resources (CPU, RAM, storage) based on your expected log volume.
 3. Install helm in your machine through where you have access to your cloud cluster 
 
-### Step 2: Apply the EFK tar file through helm command in your Cloud Provider k8s cluster.
-   ''' helm install <release name> <.tar file> '''
+### Step 2: Apply the EFK tar file through the helm command in your Cloud Provider k8s cluster.
+   ``` helm install <release name> <.tar file> ```
   
 
 
